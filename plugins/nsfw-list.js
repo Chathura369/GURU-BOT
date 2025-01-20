@@ -100,7 +100,7 @@ let handler = async (m, { conn, usedPrefix }) => {
 handler.help = ['nsfw']
 handler.tags = ['nsfw']
 handler.command = ['nsfw']
-handler.group = true
-handler.register = true
+handler.group = false
+handler.register = false
 
 export default handler
